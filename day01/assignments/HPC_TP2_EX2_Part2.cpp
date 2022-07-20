@@ -45,8 +45,8 @@ int main(){
        float msec = end - start;
        // Bande_passante
        rate =sizeof(double)*N*(1000.0/msec) / (1024*1024);
-       printf("-----------------------------------------\n\n");
+       printf("-----------------------------------------------------------------\n\n");
        printf("i_stride : %d\n mean : %f\n CPU_Time : %f\n rate : %f \n", i_stride,mean,msec,rate);
-
+       printf("-----------------------------------------------------------------\n\n");
 
     }
